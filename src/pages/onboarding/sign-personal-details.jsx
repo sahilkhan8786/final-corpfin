@@ -47,7 +47,7 @@ const SignPersonalDetails = () => {
                         <InputPhone label="Phone number" name='Phone number' />
 
                     </div>
-                    <Link to='/personal-signin-details'>
+                    <Link to='/sign-in-business-details'>
                         <div className='flex w-full md:w-[393px]'>
                             <button className='text-white bg-primary w-full p-3 hover:opacity-85 rounded-xl'>Update Company Details</button>
                         </div>
