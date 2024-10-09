@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'custom-md': '898px'
+      },
       fontFamily: {
         'poppins': "Poppins",
         'inter': 'Inter'
