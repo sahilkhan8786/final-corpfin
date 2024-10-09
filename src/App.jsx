@@ -101,6 +101,30 @@ const router = createBrowserRouter([
     ]
   },
   {
+    path: '/midmarket-seller-dashbaord',
+    element: <DashboardSeller />
+  },
+  {
+    path: '/startp-seller-dashbaord',
+    element: <EvaluateBuyerStartupSeller />
+  },
+  {
+    path: '/startup-seller-dashbaord',
+    element: <MyListingStartupSeller />
+  },
+  {
+    path: '/midmarket-seller-listing-detail-page',
+    element: <SellerListingDetailsPage />
+  },
+  {
+    path: '/startup-seller-listing-detail-page',
+    element: <StartupSellerLisitngDetailsPage />
+  },
+  {
+    path: '/midmarket-seller-buyer-evaluation',
+    element: <BuyersEvaluation />
+  },
+  {
     path: '/reset-password',
     element: <ResetPassword />
   },
@@ -144,6 +168,7 @@ const router = createBrowserRouter([
     path: '/start-up-investor-dashboard',
     element: <StartUpInvestorDashboard />
   },
+
   {
     path: '/mid-market-buyer-dashboard',
     element: <MidmarketBuyerDashboard />

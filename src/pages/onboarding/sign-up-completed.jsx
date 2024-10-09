@@ -15,10 +15,10 @@ const SignupCompleted = () => {
                 <Link to={'/start-up-seller-overview'} className='w-full'>
                     <button className='text-primary p-3 hover:opacity-85 bg-[#8DF5E780]  mx-4 whitespace-nowrap'>Startup seller dashboard</button>
                 </Link>
-                <Link to={'/mid-market-buyer-dashboard'} className='w-full'>
+                <Link to={'/dashboard'} className='w-full'>
                     <button className='text-primary p-3 hover:opacity-85 bg-[#8DF5E780]  mx-4 whitespace-nowrap'>Midmarket Buyer dashboard</button>
                 </Link>
-                <Link to={'/start-up-investor-dashboard'} className='w-full'>
+                <Link to={'/dashboard'} className='w-full'>
                     <button className='text-primary p-3 hover:opacity-85 bg-[#8DF5E780]  mx-4 whitespace-nowrap'>Startup investor dashboard</button>
                 </Link>
 

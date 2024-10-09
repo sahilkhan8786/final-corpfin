@@ -1,5 +1,6 @@
 import React from 'react'
 import MidmarketLandingPageDetails from '../../components/MidmarketLandingPageDetails'
+import { Link } from 'react-router-dom'
 
 const MidMarketLandingPage = () => {
     return (
@@ -14,20 +15,24 @@ const MidMarketLandingPage = () => {
                             Blandit cursus risus at ultrices. Viverra mauris in aliquam sem fringilla. Turpis egestas sed tempus urna et pharetra pharetra massa.
                         </p>
                         <div className="z-20 flex  gap-3 ">
-                            <button className="uppercase flex gap-3 items-center justify-center text-[18px] md:text-4xl bg-primary px-3 py-3  rounded-md hover:opacity-95 w-1/2 md:w-fit   ">
-                                <span className='whitespace-nowrap'>Buy side</span>
-                                <div className='w-full flex justify-end md:justify-center'>
+                            <Link to={'/buyside-landing-page'}>
+                                <button className="uppercase flex gap-3 items-center justify-center text-[18px] md:text-4xl bg-primary px-3 py-3  rounded-md hover:opacity-95 w-1/2 md:w-fit   ">
+                                    <span className='whitespace-nowrap'>Buy side</span>
+                                    <div className='w-full flex justify-end md:justify-center'>
 
-                                    <img src="/Arrow.png" alt="Arrow icon" className='' />
-                                </div>
-                            </button>
-                            <button className="uppercase flex gap-3 items-center justify-center text-[18px] md:text-4xl bg-[#022D67] px-3  py-3 rounded-md hover:opacity-95 w-1/2 md:w-fit   ">
-                                <span className='whitespace-nowrap'>Sell side</span>
-                                <div className='w-full flex '>
+                                        <img src="/Arrow.png" alt="Arrow icon" className='' />
+                                    </div>
+                                </button>
+                            </Link>
+                            <Link to='/sellside-landing-page'>
+                                <button className="uppercase flex gap-3 items-center justify-center text-[18px] md:text-4xl bg-[#022D67] px-3  py-3 rounded-md hover:opacity-95 w-1/2 md:w-fit   ">
+                                    <span className='whitespace-nowrap'>Sell side</span>
+                                    <div className='w-full flex '>
 
-                                    <img src="/Arrow.png" alt="Arrow icon" className='w-fit' />
-                                </div>
-                            </button>
+                                        <img src="/Arrow.png" alt="Arrow icon" className='w-fit' />
+                                    </div>
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </article>

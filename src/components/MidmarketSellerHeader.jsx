@@ -15,7 +15,9 @@ const MidmarketSellerHeader = () => {
             <nav className='max-w-[1440px] mx-auto flex items-center justify-between py-4 px-2'>
                 {/* Logo */}
                 <div>
-                    <img src="/logoDark.png" alt="Logo" />
+                    <Link to='/'>
+                        <img src="/logoDark.png" alt="Logo" />
+                    </Link>
                 </div>
 
                 {/* Desktop Navigation */}

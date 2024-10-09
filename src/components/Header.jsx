@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
         <header className="w-full mb-4 md:mb-0">
-            <nav className="max-w-[1440px] mx-auto md:py-4 uppercase flex items-center justify-between px-2">
+            <nav className="max-w-[1440px] mx-auto md:py-4 uppercase flex items-center justify-between px-6">
                 <div>
                     <Link to="/">
                         <img src="/logoDark.png" alt="Logo" className="cursor-pointer" />
@@ -25,23 +25,33 @@ const Header = () => {
                     <li>
                         <Link to="/about">About Us</Link>
                     </li>
+
                     <li className="relative">
                         <button onClick={toggleHub} className="flex items-center" onMouseEnter={toggleHub} >
-                            The Hub
+                            THE Hub
+                            <img
+                                src="/Arrow down sign to navigate.png"
+                                alt="Arrow"
+                                className={`ml-2 transition-transform ${hubOpen ? 'rotate-180' : ''}`}
+                            />
+
                         </button>
                         {hubOpen && (
                             <ul className="absolute bg-white mt-2 shadow-lg rounded z-50 min-w-fit px-4 " onMouseLeave={toggleHub}>
                                 <li>
-                                    <Link to="/buyside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Buyside Landing page</Link>
+                                    <Link to="/buyside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Grow your Business</Link>
                                 </li>
                                 <li>
-                                    <Link to="/sellside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>SellSide Landing page</Link>
+                                    <Link to="/buyside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Invest in Business</Link>
                                 </li>
                                 <li>
-                                    <Link to="/start-up-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Start Up Landing page</Link>
+                                    <Link to="/sellside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Execute Transaction</Link>
                                 </li>
                                 <li>
-                                    <Link to="/investor-landing-page-early-stage" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Investor Landing Page</Link>
+                                    <Link to="/sellside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Exit your Business</Link>
+                                </li>
+                                <li>
+                                    <Link to="/sellside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Raise Funds</Link>
                                 </li>
 
                             </ul>
