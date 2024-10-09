@@ -33,14 +33,14 @@ const SignIn = () => {
 
                 {/* RIGHT */}
                 <div className='bg-white  flex-1 rounded-tl-3xl  md:rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none flex justify-center items-center flex-col gap-3   w-full px-4 md:px-0 md:w-[393px] relative h-screen py-12 md:py-0 pb-24 md:pb-0 border border-primary  md:border-transparent rounded-b-3xl md:rounded-br-none mt-6 md:mt-0'>
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='  w-full md:w-[393px] px-6 sm:px-8'>
                         <InputBox label="Email address" name='email' />
                     </div>
 
-                    <div className='  w-full md:w-[393px]  '>
+                    <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
                         <InputPassword label="Password" name='Password' />
                     </div>
-                    <div className='flex w-full md:w-[393px] items-center gap-6'>
+                    <div className='flex w-full md:w-[393px] items-center gap-6 px-6 sm:px-8'>
                         <Link to={'/forgot-password'}>
                             <p className='font-normal text-[14px]
                         text-[#47464A] w-fit whitespace-nowrap'>Forgot password ?</p>
@@ -49,14 +49,14 @@ const SignIn = () => {
                             <button className='text-white bg-primary w-full p-3 hover:opacity-85'>Sign In</button>
                         </Link>
                     </div>
-                    <div className='w-full md:w-[393px] relative my-3'>
+                    <div className='w-full md:w-[393px] relative my-3 px-6 sm:px-8' >
                         <p className='w-full  bg-gray-300 h-[1px]'></p>
                         <span className='px-2 bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>or</span>
                     </div>
 
-                    <div className='  w-full md:w-[393px] text-center'>
+                    <div className='  w-full md:w-[393px] text-center '>
                         <h3 className='text-[#202020] font-medium text-[14px]' >Sign in with</h3>
-                        <article className='  w-full md:w-[393px] flex items-center justify-between mt-6 flex-wrap mb-6 gap-2'>
+                        <article className='  w-full md:w-[393px] flex items-center justify-between mt-6 flex-wrap mb-6 gap-2 px-6 sm:px-8'>
                             <article className='  w-full md:w-[393px] flex items-center justify-between mt-6 flex-wrap mb-6 gap-2'>
                                 <div className='flex items-center gap-5 border p-3 hover:bg-gray-200 cursor-pointer  min-w-[120px]w-full flex-1  justify-center'>
                                     <img src='/google logo.png' alt="" />
@@ -72,7 +72,7 @@ const SignIn = () => {
                             </article>
 
 
-                            <p className='sm:text-[14px] font-medium flex items-center justify-center w-full md:mt-6 flex-row whitespace-nowrap text-[10px]'>Don’t have a CorpFin Hub account?
+                            <p className='sm:text-[14px] font-medium flex items-center justify-center w-full md:mt-6 flex-row whitespace-nowrap text-[10px] px-6 sm:px-8'>Don’t have a CorpFin Hub account?
                                 <Link to={'/sign-up'}>
                                     <span className='text-primary hover:cursor-pointer hover:underline'>Create an account</span>
                                 </Link>

@@ -4,10 +4,10 @@ import InputBox from '../../components/InputBox'
 
 const ResetPassword = () => {
     return (
-        <section className='md:bg-primary w-full min-h-screen flex flex-col p-2'>
-            <div className=' flex w-full flex-col   md:flex-row'>
+        <section className='md:bg-primary w-full min-h-screen flex flex-col '>
+            <div className=' flex w-full flex-col   md:flex-row p-4 md:p-0'>
                 {/* LEFT */}
-                <div className='md:text-white flex-1 flex items-center justify-center flex-col md:relative mt-8 md:mt-0 px-3 md:px-0'>
+                <div className='md:text-white flex-1 flex items-center justify-center flex-col md:relative mt-8 md:mt-0  md:px-0 px-6 sm:px-8'>
                     <h1 className='font-semibold text-6xl md:text-[48px] leading-tight w-full md:w-[360px]'>Reset Password</h1>
                     <p className='text-[14px] w-full md:w-[360px]'>We provide lorem ipsum team dolor sit amet, consectetur adipiscing performance.</p>
                     <div className='md:flex flex-col gap-5 mt-8 hidden'>
@@ -30,18 +30,18 @@ const ResetPassword = () => {
                 </div>
 
                 {/* RIGHT */}
-                <div className='bg-white  flex-1 rounded-tl-3xl  md:rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none flex justify-center items-center flex-col gap-3   w-full px-4 md:px-0 md:w-[393px] relative h-screen py-12 md:py-0 pb-24 md:pb-0 border border-primary  md:border-transparent rounded-b-3xl md:rounded-br-none mt-6 md:mt-0'>
-                    <h3 className='w-full md:w-[393px] text-3xl font-medium'>Create new password</h3>
-                    <p className='w-full md:w-[393px] text-[14px] text-[#47464A]'>Please create a new password that you don’t use on any other site.</p>
-                    <div className='  w-full md:w-[393px] '>
+                <div className='bg-white  flex-1 rounded-tl-3xl  md:rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none flex justify-center items-center flex-col gap-3   w-full md:px-0 md:w-[393px] relative h-screen py-12 md:py-0 pb-24 md:pb-0 border border-primary  md:border-transparent rounded-b-3xl md:rounded-br-none mt-6 md:mt-0 '>
+                    <h3 className='w-full md:w-[393px] text-3xl font-medium px-6 sm:px-8'>Create new password</h3>
+                    <p className='w-full md:w-[393px] text-[14px] text-[#47464A] px-6 sm:px-8'>Please create a new password that you don’t use on any other site.</p>
+                    <div className='  w-full md:w-[393px] px-6 sm:px-8 '>
                         <InputBox label="Create new password" name='Create new password' />
                     </div>
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='  w-full md:w-[393px] px-6 sm:px-8'>
                         <InputBox label="Confirm new password" name='Confirm new password' />
                     </div>
 
 
-                    <div className='flex w-full md:w-[393px] items-center gap-6'>
+                    <div className='flex w-full md:w-[393px] items-center gap-6 px-6 sm:px-8'>
 
                         <button className='text-white bg-primary w-full p-3 hover:opacity-85'>Change Password</button>
                     </div>

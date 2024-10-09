@@ -13,7 +13,7 @@ const StartUpInvestorDashboard = () => {
                 </div>
             </div>
 
-            <div className='w-full flex justify-between gap-3 my-6 mx-4'>
+            <div className='w-full flex justify-between gap-3 my-6 max-w-[1440px] mx-auto'>
                 <article className=' w-full  flex items-center gap-2 px-3 py-2 border'>
                     <img src="/fi_search (1).png" alt="" />
                     <input type="text" placeholder='Search by anything...' className='w-full outline-none focus:outline-none  bg-transparent' />

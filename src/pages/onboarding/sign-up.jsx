@@ -33,10 +33,10 @@ const SignUp = () => {
 
                 {/* RIGHT */}
                 <div className='bg-white  flex-1 rounded-tl-3xl  md:rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none flex justify-center items-center flex-col gap-3   w-full px-4 md:px-0 md:w-[393px] relative h-screen py-12 md:py-0 pb-24 md:pb-0 border border-primary  md:border-transparent rounded-b-3xl md:rounded-br-none'>
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='  w-full md:w-[393px] px-6 sm:px-8'>
                         <InputBox label="Email address" name='email' />
                     </div>
-                    <div className=' w-[100%] md:w-[393px] flex gap-3'>
+                    <div className=' w-[100%] md:w-[393px] flex gap-3 px-6 sm:px-8'>
                         <InputBox label="First name" name='First name' />
                         <InputBox label="Last name" name='Last name' />
                     </div>
@@ -44,19 +44,19 @@ const SignUp = () => {
                         <InputPhone label="Phone number" name='Phone number' />
 
                     </div> */}
-                    <div className='  w-full md:w-[393px]  '>
+                    <div className='px-6 sm:px-8  w-full md:w-[393px]  '>
                         <InputPassword label="Password" name='Password' />
                     </div>
-                    <div className='  w-full md:w-[393px]  '>
+                    <div className='px-6 sm:px-8  w-full md:w-[393px]  '>
                         <InputPassword label="Confirm Password" name='Confirm Password' />
                     </div>
-                    <div className='flex w-full md:w-[393px]'>
+                    <div className='flex w-full md:w-[393px] px-6 sm:px-8'>
                         <button className='text-white bg-primary w-full p-3 hover:opacity-85'>Sign Up</button>
                     </div>
 
                     <div className='  w-full md:w-[393px] text-center'>
                         <h3 className='text-[#202020] font-medium text-[14px]' >Sign up with</h3>
-                        <article className='  w-full md:w-[393px] flex items-center justify-between mt-6 flex-wrap mb-6 gap-2'>
+                        <article className='px-6 sm:px-8  w-full md:w-[393px] flex items-center justify-between mt-6 flex-wrap mb-6 gap-2'>
                             <div className='flex items-center gap-5 border p-3 hover:bg-gray-200 cursor-pointer  min-w-[120px]w-full flex-1  justify-center'>
                                 <img src='/google logo.png' alt="" />
                                 <p >Google</p>
@@ -73,7 +73,7 @@ const SignUp = () => {
                                     <p>By clicking Create account, I agree that I have read and accepted the Terms of Use and Privacy Policy.</p>
                                 </Link>
                             </div>
-                            <p className='sm:text-[14px] font-medium flex items-center justify-center w-full md:mt-6 flex-row whitespace-nowrap text-[10px]'>Already have a CorpFin Hub account?
+                            <p className='sm:text-[14px] font-medium flex items-center justify-center w-full md:mt-6 flex-row whitespace-nowrap text-[10px]px-6 sm:px-8'>Already have a CorpFin Hub account?
                                 <Link to={'/sign-in'}>
                                     <span className='text-primary hover:cursor-pointer hover:underline'>Sign In</span>
                                 </Link>

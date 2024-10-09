@@ -11,8 +11,8 @@ const StaticLandingPage = () => {
                     <div className="absolute inset-0 bg-with-gradient  z-10"></div>
 
                     {/* Content */}
-                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full px-2 relative z-20">
-                        <h1 className="font-bold text-[32px] md:text-[46px] w-full max-w-[512px]">
+                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full relative z-20 px-6 sm:px-8">
+                        <h1 className="font-bold text-[28px] md:text-[46px] w-full max-w-[512px]">
                             Worem ipsum dolor sit amet, consectetur adipiscing elit.
                         </h1>
                         <p className="text-[14px] text-[#F8F8F8] w-full max-w-[375px]">
@@ -22,7 +22,7 @@ const StaticLandingPage = () => {
                 </article>
             </div>
 
-            <div className='max-w-[1440px] mx-auto px-2 my-6'>
+            <div className='max-w-[1440px] mx-auto my-6 px-6 sm:px-8'>
 
                 <h1 className='font-inter text-center font-bold text-[28px] md:text-[58px]'>We Help You to Find
                     <br />
@@ -64,7 +64,7 @@ const StaticLandingPage = () => {
                 </article>
 
             </div>
-            <div className='max-w-[1440px] mx-auto px-2 my-6  justify-between flex flex-col md:flex-row'>
+            <div className='max-w-[1440px] mx-auto px-2 my-6  justify-between flex flex-col md:flex-row px-6 sm:px-8'>
                 <article className='flex-1 flex justify-center flex-col'>
 
 
@@ -121,7 +121,7 @@ const StaticLandingPage = () => {
 
 
             </div>
-            <div className='max-w-[1440px] mx-auto px-2   justify-between flex flex-col my-12'>
+            <div className='max-w-[1440px] mx-auto px-2   justify-between flex flex-col my-12 px-6 sm:px-8'>
                 <h1 className='font-inter  font-bold md:text-[58px] text-center md:text-start text-[23px]'>What Should We
                     <span className='text-primary px-1'>
                         Help

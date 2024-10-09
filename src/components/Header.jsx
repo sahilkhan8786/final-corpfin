@@ -18,7 +18,7 @@ const Header = () => {
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className="md:flex items-center gap-4 hidden z-50">
+                <ul className="custom-md:flex items-center gap-4 hidden z-50">
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -50,10 +50,16 @@ const Header = () => {
                     <li>
                         <Link to="/pricing">Pricing</Link>
                     </li>
+                    <li>
+                        <Link to="/faq">FAQ</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact Us</Link>
+                    </li>
                 </ul>
 
                 {/* Desktop Buttons */}
-                <div className="gap-3 hidden md:flex">
+                <div className="gap-3 hidden custom-md:flex ">
                     <Link to="/sign-in">
                         <button className="bg-primary text-white hover:opacity-85 px-4 py-2 border border-primary font-medium uppercase">Login</button>
                     </Link>
@@ -66,13 +72,13 @@ const Header = () => {
                 <img
                     src="/menu.png"
                     alt="Menu"
-                    className="pr-4 cursor-pointer block md:hidden z-50"
+                    className="pr-4 cursor-pointer block custom-md:hidden z-50"
                     onClick={toggleNav}
                 />
 
                 {/* Mobile Menu */}
                 {navOpen && (
-                    <ul className="block md:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-50 ">
+                    <ul className="block custom-md:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-50 ">
                         <li className="p-4">
                             <Link to="/" onClick={toggleNav}>Home</Link>
                         </li>
@@ -101,6 +107,12 @@ const Header = () => {
                         </li>
                         <li className="p-4">
                             <Link to="/pricing" onClick={toggleNav}>Pricing</Link>
+                        </li>
+                        <li className="p-4">
+                            <Link to="/faq" onClick={toggleNav}>FAQ</Link>
+                        </li>
+                        <li className="p-4">
+                            <Link to="/contact" onClick={toggleNav}>Contact Us</Link>
                         </li>
                         <li className="p-4">
                             <Link to="/sign-in" onClick={toggleNav}>Login</Link>

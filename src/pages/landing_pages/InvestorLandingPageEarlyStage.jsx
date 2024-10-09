@@ -8,7 +8,7 @@ const InvestorLandingPageEarlyStage = () => {
 
             <div className="w-full h-[90vh]">
                 <article className={`relative flex flex-col text-white justify-center h-full w-full bg-[#A8A8A8] bg-center bg-cover bg-no-repeat`}>
-                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full px-2 relative">
+                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full px-2 relative px-6 sm:px-8">
                         <h1 className="z-20 font-bold text-[32px] md:text-[46px] w-full max-w-[512px]">
                             Worem ipsum dolor sit amet, consectetur adipiscing elit.
                         </h1>
@@ -31,7 +31,7 @@ const InvestorLandingPageEarlyStage = () => {
                     </div>
                 </article>
             </div>
-            <div className='flex flex-col gap-6 max-w-[1400px] mx-auto my-6 '>
+            <div className='flex flex-col gap-6 max-w-[1400px] mx-auto my-6 px-6 sm:px-8'>
                 <h1 className='font-semibold text-center text-[28px] md:text-[50px] text-[#0D0D0D] my-6'>
                     Helping Investors
                 </h1>
@@ -61,7 +61,7 @@ const InvestorLandingPageEarlyStage = () => {
 
 
 
-            <div className='bg-[#F8F8F8] py-12'>
+            <div className='bg-[#F8F8F8] py-12 px-6 sm:px-8'>
 
 
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12   flex items-center justify-between border-b border-b-[#D8D8D8] flex-col md:flex-row`}>
@@ -95,7 +95,7 @@ const InvestorLandingPageEarlyStage = () => {
                     </div>
                 </article>
             </div>
-            <div className='w-full flex max-w-[1440px] mx-auto md:my-12 my-6 flex-col-reverse  md:flex-row '>
+            <div className='w-full flex max-w-[1440px] mx-auto md:my-12 my-6 flex-col-reverse  md:flex-row px-6 sm:px-8'>
                 <article className='flex w-full flex-col items-start justify-around
                 md:mt-16 gap-6 md:gap-0 px-2'>
                     <div>
@@ -109,7 +109,7 @@ const InvestorLandingPageEarlyStage = () => {
                 <img src="/home-and-family-insurance-concept-2023-11-27-04-50-01-utc .png" alt="" className='w-full md:w-1/2 px-2' />
             </div>
 
-            <div className='bg-[#F8F8F8] py-16'>
+            <div className='bg-[#F8F8F8] py-16 px-6 sm:px-8'>
 
                 <div className='flex w-full max-w-[1440px] mx-auto my-16  gap-12 flex-col md:flex-row'>
                     <article className=' w-full flex flex-col gap-6'>

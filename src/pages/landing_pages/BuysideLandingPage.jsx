@@ -5,8 +5,8 @@ const BuysideLandingPage = () => {
         <>
             <div className="w-full h-[90vh] ">
                 <article className={`relative flex flex-col text-white justify-center h-full w-full bg-[#A8A8A8] px-3 md:px-0`}>
-                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full px-2 relative" >
-                        <h1 className="z-20 font-bold text-[28px] md:text-[46px] w-3/4 max-w-[512px]">
+                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full  relative px-6 sm:px-8" >
+                        <h1 className="z-20 font-bold text-[24px] md:text-[46px] w-3/4 max-w-[512px]">
                             Worem ipsum dolor sit amet, consectetur adipiscing elit.
                         </h1>
                         <p className="z-20 text-[12px] md:text-[14px] text-[#F8F8F8] w-3/4 max-w-[375px]">
@@ -30,10 +30,10 @@ const BuysideLandingPage = () => {
                     </div>
                 </article>
             </div>
-            <div className='w-full bg-[#F8F8F8] py-12'>
+            <div className='w-full bg-[#F8F8F8] py-12 px-6 sm:px-8'>
 
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12  `}>
-                    <h1 className='font-semibold text-[#0D0D0D] text-[32px] text-center my-6 sm:my-0 sm:text-[50px] p t-12'>
+                    <h1 className='font-semibold text-[#0D0D0D] text-[30px] text-center my-6 sm:my-0 sm:text-[50px] p t-12'>
                         Helping Buyers
                     </h1>
                     <p className='text-[13px] md:text-[16px] text-[#3B3B3B] text-center w-full xl:w-[1181px]'>
@@ -56,7 +56,7 @@ const BuysideLandingPage = () => {
                     </div>
                 </article>
             </div>
-            <div className='bg-[#F8F8F8] py-12'>
+            <div className='bg-[#F8F8F8] py-12 px-6 sm:px-8'>
 
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12   flex items-center justify-between border-b border-b-[#D8D8D8] flex-col md:flex-row `} >
 
@@ -89,7 +89,7 @@ const BuysideLandingPage = () => {
                     </div>
                 </article>
             </div>
-            <div className='w-full flex max-w-[1440px] mx-auto md:my-12 my-6 flex-col-reverse  md:flex-row '>
+            <div className='w-full flex max-w-[1440px] mx-auto md:my-12 my-6 flex-col-reverse  md:flex-row px-6 sm:px-8'>
                 <article className='flex w-full flex-col items-start justify-around
                 md:mt-16 gap-6 md:gap-0 px-2'>
                     <div>

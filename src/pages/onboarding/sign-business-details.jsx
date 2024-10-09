@@ -30,29 +30,29 @@ const SignBusinessDetails = () => {
                 <div className='bg-white  flex-1 rounded-tl-3xl  md:rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none flex justify-center items-center flex-col gap-3   w-full px-4 md:px-0 md:w-[393px] relative h-screen py-12 md:py-0 pb-24 md:pb-0 border border-primary  md:border-transparent rounded-b-3xl md:rounded-br-none'>
 
 
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
                         <InputBox label="Company Name" name='Company Name' />
                     </div>
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
                         <InputSelect name="Company Type" id='Company Name' />
                     </div>
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
                         <InputBox label="Position in Company" name='Position in Company' />
                     </div>
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
                         <InputSelect name="Platform" id='Platform' />
                     </div>
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
                         <InputSelect name="industry Preference" id='industry Preference' />
                     </div>
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
                         <InputSelect name="Reason to join" id='Reason to join' />
                     </div>
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
                         <InputSelect name="How did you hear about us?" id='How did you hear about us?' />
                     </div>
                     <Link to={'/signup-completed'}>
-                        <div className='flex w-full md:w-[393px]'>
+                        <div className='flex w-full md:w-[393px] px-6 sm:px-8'>
                             <button className='text-white bg-primary w-full p-3 hover:opacity-85'>Join CorpFin Hub</button>
                         </div>
                     </Link>

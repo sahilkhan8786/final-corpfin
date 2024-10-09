@@ -14,7 +14,7 @@ const Desktop1 = () => {
                         <li className='hover:text-primary'>Privacy Policy</li>
                     </ul>
                 </aside>
-                <article className='w-full md:w-3/4 text-[#5E6670] px-2'>
+                <article className='w-full md:w-3/4 text-[#5E6670] px-6 sm:px-8'>
                     <h1 className='font-medium text-[#18191C] text-[32px] '>Terms & Condition</h1>
 
                     <p className=' my-3'>Praesent placerat dictum elementum. Nam pulvinar urna vel lectus maximus, eget faucibus turpis hendrerit. Sed iaculis molestie arcu, et accumsan nisi. Quisque molestie velit vitae ligula luctus bibendum. Duis sit amet eros mollis, viverra ipsum sed, convallis sapien. Donec justo erat, pulvinar vitae dui ut, finibus euismod enim. Donec velit tortor, mollis eu tortor euismod, gravida lacinia arcu.</p>

@@ -13,7 +13,7 @@ const Contacts = () => {
                     </div>
                 </article>
             </div>
-            <div className='max-w-[1440px] mx-auto w-full flex my-12 px-2 flex-col md:flex-row'>
+            <div className='max-w-[1440px] mx-auto w-full flex my-12 flex-col md:flex-row  px-6 sm:px-8'>
                 <article className='flex flex-col gap-3'>
                     <h1 className='w-full md:w-[528px] font-semibold text-[28px]  md:text-[50px] text-[#0D0D0D]'>Get in Touch: Ways to Contact Us</h1>
                     <div className='flex flex-col w-full gap-4'>
@@ -61,9 +61,9 @@ const Contacts = () => {
 
                     </div>
                 </article>
-                <article className='w-full bg-[#D8D8D8] h-[300px] md:h-full'></article>
+                <article className='w-full bg-[#D8D8D8] h-[300px] md:h-[500px]'></article>
             </div>
-            <div className='max-w-[1440px] mx-auto flex items-center justify-center flex-col my-12 px-4'>
+            <div className='max-w-[1440px] mx-auto flex items-center justify-center flex-col my-12  px-6 sm:px-8'>
                 <h1 className='font-semibold text-[#0D0D0D] text-[28px] md:text-[50px] text-center'>You have something to
                     <br />
                     discuss with us?</h1>

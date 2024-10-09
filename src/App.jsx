@@ -33,8 +33,13 @@ import InvestorLandingPageEarlyStage from "./pages/landing_pages/InvestorLanding
 import MasterLandingpage from "./pages/landing_pages/MasterLandingpage";
 import RootLayout from "./layouts/RootLayout";
 import StartUpInvestorDashboard from "./pages/Startupuppages/StartUpInvestorDashboard";
-import MidmarketBuyerDashboard from "./pages/Startupuppages/MidmarketBuyerDashboard";
+import MidmarketBuyerDashboard from "./pages/MidmarketBuyers/MidmarketBuyerDashboard";
 import StaticLandingPage from "./pages/landing_pages/StaticLandingPage";
+import DashboardLayout from "./layouts/DashboardLayout";
+import MidmarketOverviewPage from "./pages/MidmarketBuyers/MidmarketOverviewPage";
+import MidmarketBuyerSubscription from "./pages/MidmarketBuyers/MidmarketBuyerSubscription";
+import MidMarketBuyerSubscriptionplan from "./pages/MidmarketBuyers/MidMarketBuyerSubscriptionplan";
+import MidMarketBuyerSettings from "./pages/MidmarketBuyers/MidMarketBuyerSettings";
 
 const router = createBrowserRouter([
   {
@@ -96,6 +101,10 @@ const router = createBrowserRouter([
     ]
   },
   {
+    path: '/reset-password',
+    element: <ResetPassword />
+  },
+  {
     path: '/sign-in',
     element: <SignIn />
   },
@@ -140,7 +149,30 @@ const router = createBrowserRouter([
     element: <MidmarketBuyerDashboard />
   },
 
+  {
+    path: '/dashboard',
+    element: <DashboardLayout />,
+    children: [
+      {
+        index: true,
+        element: <MidmarketOverviewPage />
+      },
+      {
+        path: 'subscription',
+        element: <MidmarketBuyerSubscription />,
 
+      },
+      {
+        path: 'subscription-selected',
+        element: <MidMarketBuyerSubscriptionplan />
+      },
+      {
+        path: 'settings',
+        element: <MidMarketBuyerSettings />
+      }
+
+    ]
+  }
 
 ]);
 

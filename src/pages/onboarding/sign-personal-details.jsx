@@ -28,7 +28,7 @@ const SignPersonalDetails = () => {
 
                 {/* RIGHT */}
                 <div className='bg-white  flex-1 rounded-tl-3xl  md:rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none flex justify-center items-center flex-col gap-3   w-full px-4 md:px-0 md:w-[393px] relative h-screen py-12 md:py-0 pb-24 md:pb-0 border border-primary  md:border-transparent rounded-b-3xl md:rounded-br-none'>
-                    <div className='w-full md:w-[393px] flex items-center justify-between gap-2'>
+                    <div className='w-full md:w-[393px] flex items-center justify-between gap-2 px-6 sm:px-8'>
                         <select name="role" id="role" className='border px-4 py-2 rounded-sm text-primary outline-none focus:outline-none'>
                             <option value="Title">Title</option>
                             <option value="Title">Title</option>
@@ -36,19 +36,19 @@ const SignPersonalDetails = () => {
 
                         <InputPhoto />
                     </div>
-                    <div className=' w-[100%] md:w-[393px] flex gap-3'>
+                    <div className=' w-[100%] md:w-[393px] flex gap-3 px-6 sm:px-8'>
                         <InputBox label="First name" name='First name' />
                         <InputBox label="Last name" name='Last name' />
                     </div>
-                    <div className='  w-full md:w-[393px] '>
+                    <div className='px-6 sm:px-8  w-full md:w-[393px] '>
                         <InputBox label="Email address" name='email' />
                     </div>
-                    <div className='  w-full md:w-[393px]  '>
+                    <div className='px-6 sm:px-8  w-full md:w-[393px]  '>
                         <InputPhone label="Phone number" name='Phone number' />
 
                     </div>
                     <Link to='/sign-in-business-details'>
-                        <div className='flex w-full md:w-[393px]'>
+                        <div className='flex w-full md:w-[393px] px-6 sm:px-8'>
                             <button className='text-white bg-primary w-full p-3 hover:opacity-85 rounded-xl'>Update Company Details</button>
                         </div>
                     </Link>

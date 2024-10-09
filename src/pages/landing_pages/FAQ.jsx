@@ -29,7 +29,7 @@ const FAQ = () => {
 
                 </article>
             </div>
-            <div className='w-full max-w-[1440px] mx-auto my-6 flex gap-12 flex-col md:flex-row px-2'>
+            <div className='w-full max-w-[1440px] mx-auto my-6 flex gap-12 flex-col md:flex-row  px-6 sm:px-8'>
                 <article>
                     <ul className='flex  gap-3 flex-wrap'>
                         <li className='hover:text-primary cursor-pointer whitespace-nowrap'>Create Account</li>

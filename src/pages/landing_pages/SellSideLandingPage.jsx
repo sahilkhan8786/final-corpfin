@@ -7,8 +7,8 @@ const SellSideLandingPage = () => {
 
             <div className="w-full h-[90vh] ">
                 <article className={`relative flex flex-col text-white justify-center h-full w-full bg-[url('happy-insurance-agent-talking-to-a-couple-and-offe-2023-11-27-04-55-31-utc.png')] bg-cover bg-center px-3 md:px-0`}>
-                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full px-2 relative" >
-                        <h1 className="z-20 font-bold text-[28px] md:text-[46px] w-3/4 max-w-[512px]">
+                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full  relative px-6 sm:px-8" >
+                        <h1 className="z-20 font-bold text-[24px] md:text-[46px] w-3/4 max-w-[512px]">
                             Worem ipsum dolor sit amet, consectetur adipiscing elit.
                         </h1>
                         <p className="z-20 text-[12px] md:text-[14px] text-[#F8F8F8] w-3/4 max-w-[375px]">
@@ -33,7 +33,7 @@ const SellSideLandingPage = () => {
                     </div>
                 </article>
             </div>
-            <div className='w-full bg-[#F8F8F8] py-12'>
+            <div className='w-full bg-[#F8F8F8] py-12 px-6 sm:px-8'>
 
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12  `}>
                     <h1 className='font-semibold text-[#0D0D0D] text-[32px] text-center my-6 sm:my-0 sm:text-[50px] p t-12'>
@@ -60,10 +60,10 @@ const SellSideLandingPage = () => {
                 </article>
             </div>
 
-            <div className='max-w-[1440px] mx-auto w-full flex justify-center md:my-12'>
+            <div className='max-w-[1440px] mx-auto w-full flex justify-center md:my-12 px-6 sm:px-8'>
                 <img src="/Pdf Viewer.png" alt="" />
             </div>
-            <div className='flex w-full max-w-[1440px] mx-auto justify-between px-4 gap-16 py-4 md:py-12 flex-col md:flex-row'>
+            <div className='flex w-full max-w-[1440px] mx-auto justify-between  gap-16 py-4 md:py-12 flex-col md:flex-row px-6 sm:px-8'>
                 <img src="/home-and-family-insurance-concept-2023-11-27-04-50-01-utc.png" alt="" className='p-4 2xl:p-0  md:w-1/2' />
                 <article className='flex-1  w-full flex flex-col justify-evenly items-start'>
                     <h1 className='font-semibold text-[38px] text-[#0D0D0D] text-center md:text-start'>Off-market</h1>
@@ -76,7 +76,7 @@ const SellSideLandingPage = () => {
                     </div>
                 </article>
             </div>
-            <div className='bg-[#F8F8F8] py-12'>
+            <div className='bg-[#F8F8F8] py-12 px-6 sm:px-8'>
 
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12   flex items-center justify-between border-b border-b-[#D8D8D8] flex-col md:flex-row `} >
 
@@ -109,7 +109,7 @@ const SellSideLandingPage = () => {
                     </div>
                 </article>
             </div>
-            <div className='w-full flex max-w-[1440px] mx-auto md:my-12 my-6 flex-col-reverse  md:flex-row '>
+            <div className='w-full flex max-w-[1440px] mx-auto md:my-12 my-6 flex-col-reverse  md:flex-row px-6 sm:px-8'>
                 <article className='flex w-full flex-col items-start justify-around
                 md:mt-16 gap-6 md:gap-0 px-2'>
                     <div>
