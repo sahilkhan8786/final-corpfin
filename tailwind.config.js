@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        'custom-md': '898px'
+        'custom-md': '1055px'
       },
       fontFamily: {
         'poppins': "Poppins",
