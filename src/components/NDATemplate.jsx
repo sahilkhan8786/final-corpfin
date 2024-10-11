@@ -17,10 +17,10 @@ const NDATemplate = ({ onCancel, onCreateNDA, isInputs = false }) => {
     };
 
     return (
-        <div className='max-w-[800px] w-full'>
+        <div className='max-w-[800px] w-full mx-4'>
             <h1 className='text-[16px] font-semibold text-primary'>{isInputs ? 'Sign our NDA template' : 'Upload NDA template'}</h1>
             {isInputs ?
-                <aside className='w-full flex gap-3 my-6'>
+                <aside className='w-full flex gap-3 my-6 flex-col md:flex-row'>
                     <article className='flex-1'>
                         <InputBox name={'Title'} label={' Title'} />
                     </article>

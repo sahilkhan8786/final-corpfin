@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import MidmarketLandingPageDetails from '../../components/MidmarketLandingPageDetails'
 
 const StaticLandingPage = () => {
@@ -121,7 +120,7 @@ const StaticLandingPage = () => {
 
 
             </div>
-            <div className='max-w-[1440px] mx-auto px-2   justify-between flex flex-col my-12 px-6 sm:px-8'>
+            <div className='max-w-[1440px] mx-auto px-2   justify-between flex flex-col my-12  sm:px-8'>
                 <h1 className='font-inter  font-bold md:text-[58px] text-center md:text-start text-[23px]'>What Should We
                     <span className='text-primary px-1'>
                         Help

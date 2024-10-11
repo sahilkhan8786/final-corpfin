@@ -27,7 +27,7 @@ const SignBusinessDetails = () => {
                 </div>
 
                 {/* RIGHT */}
-                <div className='bg-white  flex-1 rounded-tl-3xl  md:rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none flex justify-center items-center flex-col gap-3   w-full px-4 md:px-0 md:w-[393px] relative h-screen py-12 md:py-0 pb-24 md:pb-0 border border-primary  md:border-transparent rounded-b-3xl md:rounded-br-none'>
+                <form className='bg-white  flex-1 rounded-tl-3xl  md:rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none flex justify-center items-center flex-col gap-3   w-full px-4 md:px-0 md:w-[393px] relative h-screen py-12 md:py-0 pb-24 md:pb-0 border border-primary  md:border-transparent rounded-b-3xl md:rounded-br-none'>
 
 
                     <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
@@ -59,11 +59,11 @@ const SignBusinessDetails = () => {
                             <button className='text-white bg-primary w-full p-3 hover:opacity-85'>Join CorpFin Hub</button>
                         </div>
                     </Link>
-                    <p className='absolute bottom-12 hidden md:block'>
+                    <p className='absolute bottom-6 hidden md:block'>
                         <span className='text-[#A8A8A8] text-[12px]'>Copyright © 2024 All Rights Reserved</span>
 
                     </p>
-                </div>
+                </form>
                 <p className='md:absolute md:bottom-12 my-6 md:my-0 block md:hidden text-center'>Having troubles?
                     <span className='underline px-1 cursor-pointer text-primary '>Get Help</span>
 

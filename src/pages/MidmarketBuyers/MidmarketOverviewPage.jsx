@@ -7,7 +7,7 @@ import SubscriptionPlanBenefits from '../../components/SubscriptionPlanBenefits'
 
 const MidmarketOverviewPage = () => {
     return (
-        <article className='flex-[6] px-4 flex flex-col gap-8'>
+        <article className='fl ex-[6] px-4 flex flex-col gap-8'>
 
             <h1 className='font-semibold text-center text-primary  mt-6 md:hidden'>Buy Side Dashboard</h1>
             <div className='border-b-[1px] w-full flex '>

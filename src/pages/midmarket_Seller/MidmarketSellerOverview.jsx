@@ -95,7 +95,7 @@ const MidmarketSellerOverview = () => {
                             <button className='bg-primary text-white w-1/2 hover:opacity-85   py-3'>Edit Details</button>
                         </div>
                     </div>
-                    <div className='mb-16'>
+                    <form className='mb-16'>
 
                         <article className=''>
                             <h1 className='text-primary font-semibold text-[16px]'>Create Your listing</h1>
@@ -236,7 +236,7 @@ const MidmarketSellerOverview = () => {
                             </button>
                         </div>
 
-                    </div>
+                    </form>
 
                 </article>
 

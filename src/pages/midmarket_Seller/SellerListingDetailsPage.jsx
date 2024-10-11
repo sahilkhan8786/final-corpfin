@@ -129,7 +129,7 @@ const SellerListingDetailsPage = () => {
                         <textarea name="" id="" cols="30" rows="6" placeholder='Any other details ' className='border w-full p-4'></textarea>
                     </div>
                     <div className='flex justify-between  my-6 flex-col md:flex-row '>
-                        <article className='flex gap-4 w-full'>
+                        <article className='flex gap-4 w-full flex-col custom-sm:flex-row'>
                             <button className='border-2 border-primary flex gap-2 items-center p-3 hover:opacity-85 text-primary justify-center   w-full md:w-fit'
                                 onClick={() => setIsuploadTeaserClicked(true)}
                             >
@@ -148,11 +148,11 @@ const SellerListingDetailsPage = () => {
                             <span className='text-primary text-[12px] underline cursor-pointer whitespace-nowrap'>Talk to our advisors </span>
                         </article>
                     </div>
-                    <div className='flex items-center justify-center w-2/3 md:w-full mx-auto  gap-4'>
+                    <div className='flex items-center justify-center w-2/3 md:w-full mx-auto  gap-4 flex-col custom-sm:flex-row'>
                         <button className='border-2 border-primary flex gap-2 items-center p-3 hover:opacity-85 text-primary w-full  justify-center md:w-fit'>
                             Cancel
                         </button>
-                        <button className='border-2 border-primary flex gap-2 items-center bg-primary text-white p-3 hover:opacity-85 w-full   justify-center md:w-fit'>
+                        <button className='border-2 border-primary flex gap-2 items-center bg-primary text-white p-3 hover:opacity-85 w-full   justify-center md:w-fit whitespace-nowrap'>
                             Create Listing
                         </button>
                     </div>
@@ -165,8 +165,8 @@ const SellerListingDetailsPage = () => {
             </section>
             {isUploadTeaserClicked && <Overlay >
                 <div className='absolute top-4 right-4 font-bold cursor-pointer' onClick={() => setIsuploadTeaserClicked(false)}>X</div>
-                <div className='border border-gray py-6 px-12 flex gap-12'>
-                    <article className='flex flex-wrap gap-4 w-full flex-col'>
+                <div className='border border-gray py-6 px-12 flex gap-12 flex-col xl:flex-row '>
+                    <article className='flex flex-wrap gap-4 w-full flex-col mx-4'>
                         <h1 className=' font-medium text-[16px] text-primary whitespace-nowrap'>Upload teaser file</h1>
                         <p className='text-[#707070] text-[12px] whitespace-nowrap'>.pdf format only</p>
                         <button className='w-[182px] text-primary bg-white py-3 font-medium border-2 border-primary inline-flex items-center justify-center gap-4 '>
@@ -178,7 +178,7 @@ const SellerListingDetailsPage = () => {
                         </button>
                     </article>
 
-                    <article className='flex flex-wrap gap-4 w-full flex-col border-l px-5'>
+                    <article className='flex flex-wrap gap-4 w-full flex-col xl:border-l px-5'>
                         <h1 className=' font-medium text-[16px] text-primary whitespace-nowrap'>Fill in form</h1>
                         <p className='text-[#707070] text-[12px] whitespace-nowrap'>We recommend professionally created teaser</p>
                         <button className='w-[182px] text-white  py-3 font-medium border-2 border-primary inline-flex items-center justify-center gap-4 bg-primary' onClick={() => setIsCreateTeaserClicked(true)} >
@@ -188,7 +188,7 @@ const SellerListingDetailsPage = () => {
                             </span>
                         </button>
                     </article>
-                    <article className='flex flex-wrap gap-4 w-full flex-col border-l px-5'>
+                    <article className='flex flex-wrap gap-4 w-full flex-col xl:border-l px-5'>
                         <h1 className=' font-medium text-[16px] text-primary whitespace-nowrap'>Create teaser professionally?</h1>
                         <p className='text-[#707070] text-[12px] whitespace-nowrap'>Talk to our advisors</p>
                         <button className='w-[210px] text-primary bg-white py-3 font-medium border-2 border-primary inline-flex items-center justify-center gap-4 '>
@@ -203,7 +203,7 @@ const SellerListingDetailsPage = () => {
             </Overlay>}
             {isCreateTeaserClicked && <Overlay >
 
-                <div className='max-w-[600px] mx-auto  w-full'>
+                <form className='max-w-[600px] sm:mx-auto  w-full mx-4'>
                     <h1 className='font-semibold text-[16px] text-primary my-4'>Create Your teaser </h1>
                     <aside className='flex flex-col gap-4 w-full'>
 
@@ -288,14 +288,14 @@ const SellerListingDetailsPage = () => {
                             onClick={() => { setIsCreateTeaserClicked(false); setIsuploadTeaserClicked(false); }}
                         >Create Teaser</button>
                     </div>
-                </div>
+                </form>
             </Overlay>}
 
 
             {isUploadNDAClicked && <Overlay >
                 <div className='absolute top-4 right-4 font-bold cursor-pointer' onClick={() => setIsuploadNDAClicked(false)}>X</div>
-                <div className='border border-gray py-6 px-12 flex gap-12'>
-                    <article className='flex flex-wrap gap-4 w-full flex-col'>
+                <div className='border border-gray py-6 px-12 flex gap-12 flex-col xl:flex-row'>
+                    <article className='flex flex-wrap gap-4 w-full flex-col mx-4'>
                         <h1 className=' font-medium text-[16px] text-primary whitespace-nowrap'>Sign our NDA template</h1>
                         <p className='text-[#707070] text-[12px] whitespace-nowrap'>Recommended</p>
                         <button className='w-[182px] text-primary bg-white py-3 font-medium border-2 border-primary inline-flex items-center justify-center gap-4 ' onClick={() => setIsSignNDAClicked(true)}>
@@ -303,7 +303,7 @@ const SellerListingDetailsPage = () => {
                         </button>
                     </article>
 
-                    <article className='flex flex-wrap gap-4 w-full flex-col border-l px-5'>
+                    <article className='flex flex-wrap gap-4 w-full flex-col xl:border-l px-5'>
                         <h1 className=' font-medium text-[16px] text-primary whitespace-nowrap'>Upload your NDA</h1>
                         <p className='text-[#707070] text-[12px] whitespace-nowrap'>.doc format for edit</p>
                         <button className='w-[182px] text-white  py-3 font-medium border-2 border-primary inline-flex items-center justify-center gap-4 bg-primary' onClick={() => setIsUploadNDATemplateClicked(true)} >
@@ -313,7 +313,7 @@ const SellerListingDetailsPage = () => {
                             </span>
                         </button>
                     </article>
-                    <article className='flex flex-wrap gap-4 w-full flex-col border-l px-5'>
+                    <article className='flex flex-wrap gap-4 w-full flex-col xl:border-l px-5'>
                         <h1 className=' font-medium text-[16px] text-primary whitespace-nowrap'>No NDA</h1>
                         <p className='text-[#DF0000] italic text-[12px] whitespace-nowrap'>You are not uploading NDA?</p>
                         <button className='w-[210px] text-primary bg-white py-3 font-medium border-2 border-primary inline-flex items-center justify-center gap-4 '>

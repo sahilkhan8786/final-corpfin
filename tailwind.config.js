@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       screens: {
+        'custom-sm': '425px',
         'custom-md': '1055px'
       },
       fontFamily: {
