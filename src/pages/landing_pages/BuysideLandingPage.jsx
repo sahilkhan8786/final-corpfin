@@ -6,7 +6,7 @@ const BuysideLandingPage = () => {
             <div className="w-full h-[90vh] ">
                 <article className={`relative flex flex-col text-white justify-center h-full w-full bg-[#A8A8A8] px-3 md:px-0`}>
                     <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full  relative px-6 sm:px-8" >
-                        <h1 className="z-20 font-bold text-[24px] md:text-[46px] w-3/4 max-w-[512px]">
+                        <h1 className="z-20 font-bold text-[28px] md:text-[46px] w-6/7 max-w-[512px]">
                             Worem ipsum dolor sit amet, consectetur adipiscing elit.
                         </h1>
                         <p className="z-20 text-[12px] md:text-[14px] text-[#F8F8F8] w-3/4 max-w-[375px]">
@@ -61,7 +61,7 @@ const BuysideLandingPage = () => {
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12   flex items-center justify-between border-b border-b-[#D8D8D8] flex-col md:flex-row `} >
 
                     <h1 className='text-primary text-[50px] font-semibold py-12 w-full sm:w-[550px] text-center'>Evaluation
-                        Process</h1>
+                        <br />    Process</h1>
                     <p className='text-[#3B3B3B] sm:text-[18px] w-full  sm:w-[306px] text-center'>Committed to Minimizing Risks and Fostering Enterprise Growth for a Confident and Secure Future</p>
                 </article>
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12    flex items-center justify-between flex-col gap-4 md:flex-row md:gap-0 text-center md:text-start`}>

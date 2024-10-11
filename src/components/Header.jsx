@@ -1,81 +1,166 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
-    const [navOpen, setNavOpen] = useState(false); // State to control mobile menu visibility
-    const [hubOpen, setHubOpen] = useState(false); // State to control Hub submenu visibility
+    const [navOpen, setNavOpen] = useState(false);
+    const [hubOpen, setHubOpen] = useState(false);
 
-    const toggleNav = () => setNavOpen(!navOpen); // Toggles mobile menu
-    const toggleHub = () => setHubOpen(!hubOpen); // Toggles Hub submenu
+    const toggleNav = () => setNavOpen(!navOpen);
+    const toggleHub = () => setHubOpen(!hubOpen);
+
+    const activeImage = <img src="/Play-arrow.png" alt="Active" className="inline-block mr-2" />;
 
     return (
         <header className="w-full mb-4 md:mb-0">
             <nav className="max-w-[1440px] mx-auto md:py-4 uppercase flex items-center justify-between px-6">
                 <div>
-                    <Link to="/">
+                    <NavLink to="/">
                         <img src="/logoDark.png" alt="Logo" className="cursor-pointer" />
-                    </Link>
+                    </NavLink>
                 </div>
 
                 {/* Desktop Menu */}
                 <ul className="custom-md:flex items-center gap-4 hidden z-50">
                     <li>
-                        <Link to="/">Home</Link>
+                        <NavLink
+                            to="/"
+
+                            className="nav-link"
+
+                        >
+                            {({ isActive }) => (
+                                <>
+                                    {isActive ? activeImage : null}
+                                    <span className={`${isActive ? 'active-link' : ' '}`}>
+                                        Home
+                                    </span>
+                                </>
+                            )}
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/about">About Us</Link>
+                        <NavLink
+                            to="/about"
+                            className="nav-link"
+
+                        >
+                            {({ isActive }) => (
+                                <>
+                                    {isActive ? activeImage : null}
+                                    <span className={`${isActive ? 'active-link' : ' '}`}>
+                                        About Us
+                                    </span>
+                                </>
+                            )}
+                        </NavLink>
                     </li>
 
                     <li className="relative">
-                        <button onClick={toggleHub} className="flex items-center" onMouseEnter={toggleHub} >
+                        <button onClick={toggleHub} className="flex items-center" onMouseEnter={toggleHub}>
                             THE Hub
                             <img
                                 src="/Arrow down sign to navigate.png"
                                 alt="Arrow"
                                 className={`ml-2 transition-transform ${hubOpen ? 'rotate-180' : ''}`}
                             />
-
                         </button>
                         {hubOpen && (
-                            <ul className="absolute bg-white mt-2 shadow-lg rounded z-50 min-w-fit px-4 " onMouseLeave={toggleHub}>
+                            <ul className="absolute bg-white mt-2 shadow-lg rounded z-50 min-w-fit px-4" onMouseLeave={toggleHub}>
                                 <li>
-                                    <Link to="/buyside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Grow your Business</Link>
+                                    <NavLink to="/buyside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>
+                                        {({ isActive }) => (isActive ? activeImage : null)}
+                                        Grow your Business
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/buyside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Invest in Business</Link>
+                                    <NavLink to="/buyside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>
+                                        {({ isActive }) => (isActive ? activeImage : null)}
+                                        Invest in Business
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/sellside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Execute Transaction</Link>
+                                    <NavLink to="/sellside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>
+                                        {({ isActive }) => (isActive ? activeImage : null)}
+                                        Execute Transaction
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/sellside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Exit your Business</Link>
+                                    <NavLink to="/sellside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>
+                                        {({ isActive }) => (isActive ? activeImage : null)}
+                                        Exit your Business
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/sellside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>Raise Funds</Link>
+                                    <NavLink to="/sellside-landing-page" className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap" onClick={toggleHub}>
+                                        {({ isActive }) => (isActive ? activeImage : null)}
+                                        Raise Funds
+                                    </NavLink>
                                 </li>
-
                             </ul>
                         )}
                     </li>
+
                     <li>
-                        <Link to="/pricing">Pricing</Link>
+                        <NavLink
+                            to="/pricing"
+                            className="nav-link"
+
+                        >
+                            {({ isActive }) => (
+                                <>
+                                    {isActive ? activeImage : null}
+                                    <span className={`${isActive ? 'active-link' : ' '}`}>
+
+                                        Pricing
+                                    </span>
+                                </>
+                            )}
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/faq">FAQ</Link>
+                        <NavLink
+                            to="/faq"
+                            className="nav-link"
+
+                        >
+                            {({ isActive }) => (
+                                <>
+                                    {isActive ? activeImage : null}
+                                    <span className={`${isActive ? 'active-link' : ' '}`}>
+
+                                        FAQ
+                                    </span>
+                                </>
+                            )}
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/contact">Contact Us</Link>
+                        <NavLink
+                            to="/contact"
+                            className="nav-link"
+
+                        >
+                            {({ isActive }) => (
+                                <>
+                                    {isActive ? activeImage : null}
+                                    <span className={`${isActive ? 'active-link' : ' '}`}>
+
+                                        Contact Us
+                                    </span>
+                                </>
+                            )}
+                        </NavLink>
                     </li>
                 </ul>
 
                 {/* Desktop Buttons */}
                 <div className="gap-3 hidden custom-md:flex ">
-                    <Link to="/sign-in">
+                    <NavLink to="/sign-in">
                         <button className="bg-primary text-white hover:opacity-85 px-4 py-2 border border-primary font-medium uppercase">Login</button>
-                    </Link>
-                    <Link to="/sign-up">
+                    </NavLink>
+                    <NavLink to="/sign-up">
                         <button className="uppercase border border-primary px-4 py-2 text-primary font-medium hover:opacity-85">Sign up</button>
-                    </Link>
+                    </NavLink>
                 </div>
 
                 {/* Mobile Menu Icon */}
@@ -88,12 +173,26 @@ const Header = () => {
 
                 {/* Mobile Menu */}
                 {navOpen && (
-                    <ul className="block custom-md:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-50 ">
+                    <ul className="block custom-md:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-50">
                         <li className="p-4">
-                            <Link to="/" onClick={toggleNav}>Home</Link>
+                            <NavLink to="/" onClick={toggleNav}>
+                                {({ isActive }) => (
+                                    <>
+                                        {isActive ? activeImage : null}
+                                        Home
+                                    </>
+                                )}
+                            </NavLink>
                         </li>
                         <li className="p-4">
-                            <Link to="/about" onClick={toggleNav}>About Us</Link>
+                            <NavLink to="/about" onClick={toggleNav}>
+                                {({ isActive }) => (
+                                    <>
+                                        {isActive ? activeImage : null}
+                                        About Us
+                                    </>
+                                )}
+                            </NavLink>
                         </li>
                         <li className="p-4">
                             <button onClick={toggleHub} className="flex justify-between items-center w-full">
@@ -107,28 +206,87 @@ const Header = () => {
                             {hubOpen && (
                                 <ul className="mt-2">
                                     <li className="p-2">
-                                        <Link to="/hub/option1" onClick={toggleNav}>Option 1</Link>
+                                        <NavLink to="/buyside-landing-page" onClick={toggleNav}>
+                                            {({ isActive }) => (isActive ? activeImage : null)}
+                                            Grow your Business
+                                        </NavLink>
                                     </li>
                                     <li className="p-2">
-                                        <Link to="/hub/option2" onClick={toggleNav}>Option 2</Link>
+                                        <NavLink to="/buyside-landing-page" onClick={toggleNav}>
+                                            {({ isActive }) => (isActive ? activeImage : null)}
+                                            Invest in Business
+                                        </NavLink>
+                                    </li>
+                                    <li className="p-2">
+                                        <NavLink to="/sellside-landing-page" onClick={toggleNav}>
+                                            {({ isActive }) => (isActive ? activeImage : null)}
+                                            Execute Transaction
+                                        </NavLink>
+                                    </li>
+                                    <li className="p-2">
+                                        <NavLink to="/sellside-landing-page" onClick={toggleNav}>
+                                            {({ isActive }) => (isActive ? activeImage : null)}
+                                            Exit your Business
+                                        </NavLink>
+                                    </li>
+                                    <li className="p-2">
+                                        <NavLink to="/sellside-landing-page" onClick={toggleNav}>
+                                            {({ isActive }) => (isActive ? activeImage : null)}
+                                            Raise Funds
+                                        </NavLink>
                                     </li>
                                 </ul>
                             )}
                         </li>
                         <li className="p-4">
-                            <Link to="/pricing" onClick={toggleNav}>Pricing</Link>
+                            <NavLink to="/pricing" onClick={toggleNav}>
+                                {({ isActive }) => (
+                                    <>
+                                        {isActive ? activeImage : null}
+                                        Pricing
+                                    </>
+                                )}
+                            </NavLink>
                         </li>
                         <li className="p-4">
-                            <Link to="/faq" onClick={toggleNav}>FAQ</Link>
+                            <NavLink to="/faq" onClick={toggleNav}>
+                                {({ isActive }) => (
+                                    <>
+                                        {isActive ? activeImage : null}
+                                        FAQ
+                                    </>
+                                )}
+                            </NavLink>
                         </li>
                         <li className="p-4">
-                            <Link to="/contact" onClick={toggleNav}>Contact Us</Link>
+                            <NavLink to="/contact" onClick={toggleNav}>
+                                {({ isActive }) => (
+                                    <>
+                                        {isActive ? activeImage : null}
+                                        Contact Us
+                                    </>
+                                )}
+                            </NavLink>
                         </li>
                         <li className="p-4">
-                            <Link to="/sign-in" onClick={toggleNav}>Login</Link>
+                            <NavLink to="/sign-in" onClick={toggleNav}>
+                                {({ isActive }) => (
+                                    <>
+                                        {isActive ? activeImage : null}
+                                        Login
+                                    </>
+                                )}
+                            </NavLink>
                         </li>
                         <li className="p-4">
-                            <Link to="/sign-up" onClick={toggleNav}>Sign up</Link>
+                            <NavLink to="/sign-up" onClick={toggleNav}>
+                                {({ isActive }) => (
+                                    <>
+                                        {isActive ? activeImage : null}
+                                        Sign up
+                                    </>
+                                )}
+                            </NavLink>
                         </li>
                     </ul>
                 )}

@@ -11,20 +11,20 @@ const footerLinks = {
     company: [
         { text: 'About', path: '/about' },
         { text: 'Contact', path: '/contact' },
-        { text: 'Careers', path: '/careers' },
+        { text: 'Careers', path: '/contact' },
         { text: 'Terms', path: '/terms' },
         { text: 'Privacy', path: '/privacy' }
     ],
     whoWeServe: [
-        { text: 'Private Equity', path: '/private-equity' },
-        { text: 'Private Credit', path: '/private-credit' },
-        { text: 'Corporates', path: '/corporates' },
-        { text: 'CFO/Business Owners', path: '/cfo-business-owners' },
-        { text: 'Family Offices', path: '/family-offices' },
-        { text: 'Institutional Investors', path: '/institutional-investors' },
-        { text: 'Investment Banks', path: '/investment-banks' },
-        { text: 'Mid Market Boutiques', path: '/mid-market-boutiques' },
-        { text: 'PE Portfolio Companies', path: '/pe-portfolio-companies' }
+        { text: 'Private Equity', path: '/buyside-landing-page' },
+        { text: 'Private Credit', path: '/buyside-landing-page' },
+        { text: 'Corporates', path: '/buyside-landing-page' },
+        { text: 'CFO/Business Owners', path: '/buyside-landing-page' },
+        { text: 'Family Offices', path: '/buyside-landing-page' },
+        { text: 'Institutional Investors', path: '/buyside-landing-page' },
+        { text: 'Investment Banks', path: '/sellside-landing-page' },
+        { text: 'Mid Market Boutiques', path: '/sellside-landing-page' },
+        { text: 'Search Funds', path: '/buyside-landing-page' }
     ]
 };
 

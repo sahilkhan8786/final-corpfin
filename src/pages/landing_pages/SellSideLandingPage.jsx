@@ -81,7 +81,7 @@ const SellSideLandingPage = () => {
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12   flex items-center justify-between border-b border-b-[#D8D8D8] flex-col md:flex-row `} >
 
                     <h1 className='text-primary text-[50px] font-semibold py-12 w-full sm:w-[550px] text-center'>Evaluation
-                        Process</h1>
+                        <br /> Process</h1>
                     <p className='text-[#3B3B3B] sm:text-[18px] w-full  sm:w-[306px] text-center'>Committed to Minimizing Risks and Fostering Enterprise Growth for a Confident and Secure Future</p>
                 </article>
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12    flex items-center justify-between flex-col gap-4 md:flex-row md:gap-0 text-center md:text-start`}>

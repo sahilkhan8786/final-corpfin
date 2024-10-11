@@ -35,13 +35,17 @@ const styles = {
     titleTextColor: "blue",
     rowTitleColor: "Black",
     rowContentColor: '#3B3B3B',
-    // arrowColor: "red",
+    arrowColor: "#009580",
+    rowTitleTextSize: 'large',
+    rowContentTextSize: '12px',
+
 };
 
 const config = {
     animate: true,
-    // arrowIcon: "V",
-    tabFocus: true
+    tabFocus: true,
+    expandIcon: "+",
+    collapseIcon: "-",
 };
 
 const FAQCARDS = () => {

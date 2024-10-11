@@ -34,16 +34,19 @@ const SignBusinessDetails = () => {
                         <InputBox label="Company Name" name='Company Name' />
                     </div>
                     <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
-                        <InputSelect name="Company Type" id='Company Name' />
+                        <InputSelect name="Company Type" id='Company Type' options={["Company Type", 'Government', 'Private']} />
                     </div>
                     <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
                         <InputBox label="Position in Company" name='Position in Company' />
                     </div>
                     <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
-                        <InputSelect name="Platform" id='Platform' />
+                        <InputSelect name="Company Location" id='Company Location' />
                     </div>
                     <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
-                        <InputSelect name="industry Preference" id='industry Preference' />
+                        <InputSelect name="Platform" id='Platform' options={['Platform', 'Mid Market', 'Early State Business']} />
+                    </div>
+                    <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
+                        <InputSelect name="Industry Preference" id='Industry Preference' options={['Industry Preference', 'Automobile', 'Oil & Petroleum', 'Design']} />
                     </div>
                     <div className='  w-full md:w-[393px]  px-6 sm:px-8'>
                         <InputSelect name="Reason to join" id='Reason to join' />

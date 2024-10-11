@@ -68,14 +68,14 @@ const SignUp = () => {
                             </div>
 
                             <div className='flex gap-4 px-3 text-left font-normal text-[10px] text-[#84818A] mt-6 sm:text-[12px]'>
-                                <input type="checkbox" />
+
                                 <Link to='/desktop'>
                                     <p>By clicking Create account, I agree that I have read and accepted the Terms of Use and Privacy Policy.</p>
                                 </Link>
                             </div>
-                            <p className='sm:text-[14px] font-medium flex items-center justify-center w-full md:mt-6 flex-row whitespace-nowrap text-[10px]px-6 sm:px-8'>Already have a CorpFin Hub account?
+                            <p className='sm:text-[14px] font-medium flex items-center justify-center w-full md:mt-6 flex-row whitespace-nowrap text-[10px]px-6 sm:px-8 gap-3'>Already have a CorpFin Hub account?
                                 <Link to={'/sign-in'}>
-                                    <span className='text-primary hover:cursor-pointer hover:underline'>Sign In</span>
+                                    <span className='text-primary hover:cursor-pointer hover:underline '>Sign In</span>
                                 </Link>
                             </p>
 

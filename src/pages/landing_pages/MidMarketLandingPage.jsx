@@ -16,7 +16,7 @@ const MidMarketLandingPage = () => {
                         </p>
                         <div className="z-20 flex  gap-3 ">
                             <Link to={'/buyside-landing-page'}>
-                                <button className="uppercase flex gap-3 items-center justify-center text-[18px] md:text-4xl bg-primary px-3 py-3  rounded-md hover:opacity-95 w-1/2 md:w-fit   ">
+                                <button className="uppercase flex gap-3 items-center justify-center text-[18px] md:text-4xl bg-primary px-3 py-3  rounded-md hover:opacity-95 md:w-fit   ">
                                     <span className='whitespace-nowrap'>Buy side</span>
                                     <div className='w-full flex justify-end md:justify-center'>
 
@@ -25,7 +25,7 @@ const MidMarketLandingPage = () => {
                                 </button>
                             </Link>
                             <Link to='/sellside-landing-page'>
-                                <button className="uppercase flex gap-3 items-center justify-center text-[18px] md:text-4xl bg-[#022D67] px-3  py-3 rounded-md hover:opacity-95 w-1/2 md:w-fit   ">
+                                <button className="uppercase flex gap-3 items-center justify-center text-[18px] md:text-4xl bg-[#022D67] px-3  py-3 rounded-md hover:opacity-95  md:w-fit   ">
                                     <span className='whitespace-nowrap'>Sell side</span>
                                     <div className='w-full flex '>
 

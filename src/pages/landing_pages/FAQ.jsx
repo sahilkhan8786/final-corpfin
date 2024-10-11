@@ -31,7 +31,7 @@ const FAQ = () => {
             </div>
             <div className='w-full max-w-[1440px] mx-auto my-6 flex gap-12 flex-col md:flex-row  px-6 sm:px-8'>
                 <article>
-                    <ul className='flex  gap-3 flex-wrap'>
+                    <ul className='flex  gap-3 flex-wrap flex-row md:flex-col '>
                         <li className='hover:text-primary cursor-pointer whitespace-nowrap'>Create Account</li>
                         <li className='hover:text-primary cursor-pointer text-primary whitespace-nowrap'>Subscription</li>
                         <li className='hover:text-primary cursor-pointer  whitespace-nowrap'>Business Listing</li>

@@ -66,7 +66,7 @@ const InvestorLandingPageEarlyStage = () => {
 
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12   flex items-center justify-between border-b border-b-[#D8D8D8] flex-col md:flex-row`}>
 
-                    <h1 className='text-primary text-[50px] font-semibold py-12 w-full sm:w-[550px] text-center md:text-start'>Evaluation
+                    <h1 className='text-primary text-[50px] font-semibold py-12 w-full sm:w-[550px] text-center md:text-start'>Evaluation <br />
                         Process</h1>
                     <p className='text-[#3B3B3B] text-[14px] text-center sm:text-[18px] w-full sm:w-[306px]'>Committed to Minimizing Risks and Fostering Enterprise Growth for a Confident and Secure Future</p>
                 </article>

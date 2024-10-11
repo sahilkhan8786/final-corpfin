@@ -9,7 +9,6 @@ import SignupCompleted from "./pages/onboarding/sign-up-completed";
 import Maintenance from "./pages/onboarding/Maintenance";
 import Page404 from "./pages/onboarding/page404";
 import Desktop1 from "./pages/onboarding/desktop-1";
-import Home from "./pages/Home";
 import SellerListingDetailsPage from "./pages/midmarket_Seller/SellerListingDetailsPage";
 import MidMarketLandingPage from "./pages/landing_pages/MidMarketLandingPage";
 import MasterLandingPageEarlyStage from "./pages/landing_pages/MasterLandingPageEarlyStage";
@@ -172,6 +171,23 @@ const router = createBrowserRouter([
   {
     path: '/mid-market-buyer-dashboard',
     element: <MidmarketBuyerDashboard />
+  },
+
+  {
+    path: '/maintenance',
+    element: <Maintenance />
+  },
+  {
+    path: '/not-found',
+    element: <Page404 />
+  },
+  {
+    path: '/eval-buyer-startupsellerresponse',
+    element: <EvaluateBuyerStartupSellerResponse />
+  },
+  {
+    path: '/response-popup',
+    element: <ResponsePopup />
   },
 
   {

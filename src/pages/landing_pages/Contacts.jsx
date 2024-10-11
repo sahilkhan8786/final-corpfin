@@ -24,7 +24,7 @@ const Contacts = () => {
 
                         <p className='flex gap-6'>
                             <article className=''>
-                                <div className='size-[24px] rounded-full  '></div>
+                                <div className='size-[24px] rounded-full  border'></div>
                                 <h1 className='font-medium text-[17px] text-[#0D0D0D]  md:w-[298px]'>208 Glen Ridge Rd.
                                     <br />
                                     London, UK 85021</h1>

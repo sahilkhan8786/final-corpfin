@@ -49,7 +49,7 @@ const SignPersonalDetails = () => {
                     </div>
                     <Link to='/sign-in-business-details'>
                         <div className='flex w-full md:w-[393px] px-6 sm:px-8'>
-                            <button className='text-white bg-primary w-full p-3 hover:opacity-85 rounded-xl'>Update Company Details</button>
+                            <button className='text-white bg-primary w-full p-3 hover:opacity-85 rounded-xl'>Update Details</button>
                         </div>
                     </Link>
                     <p className='absolute bottom-12 hidden md:block'>

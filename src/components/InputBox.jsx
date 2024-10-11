@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const InputBox = ({ label, name, type = 'text' }) => {
+const InputBox = ({ label, name, type = 'text', isStar = true }) => {
     const [inputValue, setInputValue] = useState(''); // State to track input value
 
     const handleChange = (e) => {
@@ -25,7 +25,9 @@ const InputBox = ({ label, name, type = 'text' }) => {
           ${inputValue ? '-top-3 text-sm text-[#84818A]' : 'top-3 text-base'} peer-focus:-top-3 peer-focus:text-sm peer-focus:text-[#84818A]`}
             >
                 {label}
-                <span className='text-red-500'>*</span>
+                {isStar &&
+                    <span className='text-red-500'>*</span>
+                }
             </label>
         </div>
     );

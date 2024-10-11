@@ -26,7 +26,10 @@ const SignIn = () => {
                     </div>
 
                     <p className='md:absolute md:bottom-12 my-6 md:my-0 hidden md:block'>Having troubles?
-                        <span className='underline px-1 cursor-pointer'>Get Help</span>
+                        <Link to={'/contact'}>
+
+                            <span className='underline px-1 cursor-pointer'>Get Help</span>
+                        </Link>
 
                     </p>
                 </div>
@@ -72,7 +75,7 @@ const SignIn = () => {
                             </article>
 
 
-                            <p className='sm:text-[14px] font-medium flex items-center justify-center w-full md:mt-6 flex-row whitespace-nowrap text-[10px] px-6 sm:px-8'>Don’t have a CorpFin Hub account?
+                            <p className='sm:text-[14px] font-medium flex items-center justify-center w-full md:mt-6 flex-row whitespace-nowrap text-[10px] px-6 sm:px-8 gap-3'>Don’t have a CorpFin Hub account?
                                 <Link to={'/sign-up'}>
                                     <span className='text-primary hover:cursor-pointer hover:underline'>Create an account</span>
                                 </Link>
@@ -85,8 +88,9 @@ const SignIn = () => {
                     </p>
                 </div>
                 <p className='md:absolute md:bottom-12 my-6 md:my-0 block  md:hidden text-center'>Having troubles?
-                    <span className='underline px-1 cursor-pointer text-primary'>Get Help</span>
-
+                    <Link to={'/contact'}>
+                        <span className='underline px-1 cursor-pointer text-primary'>Get Help</span>
+                    </Link>
                 </p>
             </div>
         </section>
