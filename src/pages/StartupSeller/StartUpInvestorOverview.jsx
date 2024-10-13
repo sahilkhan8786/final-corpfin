@@ -4,6 +4,7 @@ import InputPhone from '../../components/InputPhone'
 import InputPassword from '../../components/InputPassword'
 import SubscriptionCurrentPlan from '../../components/SubscriptionCurrentPlan'
 import SubscriptionPlanBenefits from '../../components/SubscriptionPlanBenefits'
+import DragAndDropComponent from '../../components/DragAndDropComponent'
 
 const StartUpInvestorOverview = () => {
     return (
@@ -28,7 +29,7 @@ const StartUpInvestorOverview = () => {
                     <div className='flex flex-1 gap-4 my-6 flex-col md:flex-row' >
                         <div className='flex items-center w-full justify-center md:flex-1'>
 
-                            <img src="/Group 65.png" alt="" className=' w-fit ' />
+                            <DragAndDropComponent />
                         </div>
                         <div className='flex w-full flex-col  gap-4 md:flex-1  '>
                             <div className='w-full flex-1'>

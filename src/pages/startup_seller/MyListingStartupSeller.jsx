@@ -62,8 +62,8 @@ const MyListingStartupSeller = () => {
                             </div>
                             <img src="/Group 45.png" alt="" className='hidden md:block' />
                             <article className='flex flex-row justify-between relative overflow-hidden md:flex-col'>
-                                <div className='absolute right-0 -bottom-16 bg-[#8DF5E780] w-[50px] h-[96px] rounded-full justify-center hidden md:flex'>
-                                    <img src="/Arrow down sign to navigate.png" alt="" className='w-fit  h-fit py-2 ' onClick={toggleExpand} />
+                                <div className='absolute right-0 -bottom-16 bg-[#8DF5E780] w-[50px] h-[96px] rounded-full justify-center hidden md:flex cursor-pointer' onClick={toggleExpand} >
+                                    <img src="/Arrow down sign to navigate.png" alt="" className='w-fit  h-fit py-2 ' />
                                 </div>
 
                                 <span className='text-[12px] text-[#000000B2] hidden md:block'>Welcome to www.lorem-ipsum.info. This site is provided as a service to our visitors and may be used for informational purposes only.</span>

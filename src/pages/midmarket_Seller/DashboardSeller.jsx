@@ -135,8 +135,8 @@ const DashboardSeller = () => {
                                 </div>
                             </article>
 
-                            <div className='absolute right-1/2 translate-x-1/2 -bottom-16 bg-[#8DF5E780] w-[50px] h-[96px] rounded-full flex justify-center md:hidden'>
-                                <img src="/Arrow down sign to navigate.png" alt="" className='w-fit  h-fit py-2 ' onClick={toggleExpand} />
+                            <div className='absolute right-1/2 translate-x-1/2 -bottom-16 bg-[#8DF5E780] w-[50px] h-[96px] rounded-full flex justify-center md:hidden ' onClick={toggleExpand}>
+                                <img src="/Arrow down sign to navigate.png" alt="" className='w-fit  h-fit py-2 ' />
                             </div>
 
 

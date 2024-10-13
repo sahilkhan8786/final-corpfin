@@ -1,35 +1,12 @@
 import React from 'react'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
+import Buy_SellHero from '../../components/Buy_SellHero'
+
 
 const InvestorLandingPageEarlyStage = () => {
     return (
         <>
-
             <div className="w-full h-[90vh]">
-                <article className={`relative flex flex-col text-white justify-center h-full w-full bg-[#A8A8A8] bg-center bg-cover bg-no-repeat`}>
-                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full relative px-6 sm:px-8">
-                        <h1 className="z-20 font-bold text-[32px] md:text-[46px] w-full max-w-[512px]">
-                            Worem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </h1>
-                        <p className="z-20 text-[14px] text-[#F8F8F8] w-full max-w-[375px]">
-                            Blandit cursus risus at ultrices. Viverra mauris in aliquam sem fringilla. Turpis egestas sed tempus urna et pharetra pharetra massa.
-                        </p>
-                        <div className="z-20 flex flex-col md:flex-row gap-3">
-                            <button className="uppercase flex gap-3 items-center justify-center text-[12px]  bg-primary px-3 py-5 hover:opacity-95 font-bold">
-                                Board Now
-
-                            </button>
-
-                        </div>
-                        <article className='h-full bg-[#D3D0D0] w-1 absolute right-0 mx-4'>
-
-                        </article>
-                        <article className='h-1/3 top-1/2 -translate-y-1/2 bg-white w-2 absolute -right-[2px] mx-4'>
-
-                        </article>
-                    </div>
-                </article>
+                <Buy_SellHero />
             </div>
             <div className='flex flex-col gap-6 max-w-[1400px] mx-auto my-6 px-6 sm:px-8'>
                 <h1 className='font-semibold text-left text-[28px] md:text-[50px] text-[#0D0D0D] my-6'>

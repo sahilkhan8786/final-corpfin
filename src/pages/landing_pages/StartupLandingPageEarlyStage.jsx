@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const StartupLandingPageEarlyStage = () => {
@@ -14,10 +15,12 @@ const StartupLandingPageEarlyStage = () => {
                             Blandit cursus risus at ultrices. Viverra mauris in aliquam sem fringilla. Turpis egestas sed tempus urna et pharetra pharetra massa.
                         </p>
                         <div className="z-20 flex flex-col md:flex-row gap-3">
-                            <button className="uppercase flex gap-3 items-center justify-center text-[12px]  bg-primary px-3 py-5 hover:opacity-95 font-bold">
-                                Board Now
+                            <Link to={'/static-landing-page'}>
+                                <button className="uppercase flex gap-3 items-center justify-center text-[12px]  bg-primary px-3 py-5 hover:opacity-95 font-bold">
+                                    Board Now
 
-                            </button>
+                                </button>
+                            </Link>
 
                         </div>
                     </div>
