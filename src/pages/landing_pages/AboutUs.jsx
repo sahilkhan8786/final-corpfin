@@ -8,8 +8,7 @@ const AboutUs = () => {
                 <article className={`relative flex flex-col text-white justify-center h-full w-full bg-[#D8D8D8] bg-cover bg-center px-3 md:px-0 `}>
                     <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full px-2 items-start justify-end bg- h-full " >
 
-
-                        <h1 className='  bg-white text-black font-semibold text-[40px] md:text-[72px] px-2 md:pr-16   text-left whitespace-nowrap'>About Us</h1>
+                        <h1 className='ml-6 md:ml-20  bg-white text-black font-semibold text-[40px] md:text-[72px] px-2 md:pr-16   text-left whitespace-nowrap'>About Us</h1>
                     </div>
                 </article>
             </div>

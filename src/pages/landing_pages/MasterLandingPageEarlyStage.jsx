@@ -14,16 +14,16 @@ const MasterLandingPageEarlyStage = () => {
                         <p className="z-20 text-[14px] text-[#F8F8F8] w-full max-w-[375px]">
                             Blandit cursus risus at ultrices. Viverra mauris in aliquam sem fringilla. Turpis egestas sed tempus urna et pharetra pharetra massa.
                         </p>
-                        <div className="z-20 flex  gap-3">
+                        <div className="z-20 flex  gap-3 flex-col custom-sm:flex-row">
                             <Link to={'/investor-landing-page-early-stage'}>
                                 <button className="uppercase flex gap-3 items-center justify-center text-[18px] md:text-4xl bg-primary px-3 py-5 rounded-md hover:opacity-85">
-                                    <span>Buy side</span>
+                                    <span>Investors</span>
                                     <img src="/Arrow.png" alt="Arrow icon" />
                                 </button>
                             </Link>
                             <Link to={'/startup-landing-page-early-stage'}>
                                 <button className="uppercase flex gap-3 items-center justify-center text-[18px] md:text-4xl bg-[#022D67] px-3 py-5 rounded-md hover:opacity-95">
-                                    <span>Sell side</span>
+                                    <span>Start-Up</span>
                                     <img src="/Arrow.png" alt="Arrow icon" />
                                 </button>
                             </Link>

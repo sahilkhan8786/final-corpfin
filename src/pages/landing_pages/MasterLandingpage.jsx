@@ -24,7 +24,7 @@ const MasterLandingpage = () => {
                                     </div>
                                 </button>
                             </Link>
-                            <Link to={'/start-up-landing-page'} >
+                            <Link to={'/master-landingpage-early-stage'} >
                                 <button className="uppercase flex gap-3 items-center  w-[130px] sm:w-full  justify-between flex-col text-[18px] md:text-4xl  px-3 py-5 rounded-md hover:opacity-85  h-[150px] md:h-[200px] bg-gradient-to-b from-[#1076FF] to-[#022D67] whitespace-nowrap">
                                     <span>START-UP</span>
                                     <div className='w-full flex items-center justify-end'>
@@ -39,7 +39,7 @@ const MasterLandingpage = () => {
             </div >
             <div className='max-w-[1440px] mx-auto  flex items-center justify-center w-full'>
 
-                <img src="/051j (1).png" alt="" className='w-full  my-12' />
+                <img src="/051j (1).png" alt="" className='w-full   mt-12' />
             </div>
             <MidmarketLandingPageDetails toShow2={false} toShow3={false} />
         </>

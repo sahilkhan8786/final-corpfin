@@ -30,48 +30,48 @@ const BuysideLandingPage = () => {
                     </div>
                 </article>
             </div>
-            <div className='w-full bg-[#F8F8F8] py-12 px-6 sm:px-8'>
+            <div className='w-full bg-[#F8F8F8] py-12 px-6 sm:px-8 mb-12'>
 
                 <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12  `}>
-                    <h1 className='font-semibold text-[#0D0D0D] text-[30px] text-center my-6 sm:my-0 sm:text-[50px] p t-12'>
+                    <h1 className='font-semibold text-[#0D0D0D] text-[32px] text-left pb-4 my-6 sm:my-0 sm:text-[50px] p t-12 '>
                         Helping Buyers
                     </h1>
-                    <p className='text-[13px] md:text-[16px] text-[#3B3B3B] text-center w-full xl:w-[1181px]'>
+                    <p className='text-[13px] md:text-[16px] text-[#3B3B3B]  w-full text-left'>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                     </p>
 
-                    <div className='flex items-center justify-center gap-4 md:my-8 flex-col md:flex-row'>
+                    <div className='flex items-center justify-center gap-4 md:my-8 flex-col md:flex-row '>
                         <article className='md:my-12 my-2'>
-                            <h1 className='font-medium text-center text-[18px] text-[#0D0D0D]'>Worem</h1>
-                            <p className='text-[12px] text-[#3B3B3B] w-[202px] text-center'>All the services available in the CorpFin platform are reliable</p>
+                            <h1 className='font-medium text-left text-[18px] text-[#0D0D0D]'>Worem</h1>
+                            <p className='text-[12px] text-[#3B3B3B] w-[202px] text-left'>All the services available in the CorpFin platform are reliable</p>
                         </article>
                         <article className='md:my-12 my-2'>
-                            <h1 className='font-medium text-[18px] text-[#0D0D0D] text-center'>Worem</h1>
-                            <p className='text-[12px] text-[#3B3B3B] w-[202px]'>All the services available in the CorpFin platform are reliable</p>
+                            <h1 className='font-medium text-left text-[18px] text-[#0D0D0D]'>Worem</h1>
+                            <p className='text-[12px] text-[#3B3B3B] w-[202px] text-left'>All the services available in the CorpFin platform are reliable</p>
                         </article>
                         <article className='md:my-12 my-2'>
-                            <h1 className='font-medium text-[18px] text-[#0D0D0D] text-center'>Worem</h1>
-                            <p className='text-[12px] text-[#3B3B3B] w-[202px]'>All the services available in the CorpFin platform are reliable</p>
+                            <h1 className='font-medium text-left text-[18px] text-[#0D0D0D]'>Worem</h1>
+                            <p className='text-[12px] text-[#3B3B3B] w-[202px] text-left'>All the services available in the CorpFin platform are reliable</p>
                         </article>
                     </div>
                 </article>
             </div>
             <div className='bg-[#F8F8F8] py-12 px-6 sm:px-8'>
 
-                <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12   flex items-center justify-between border-b border-b-[#D8D8D8] flex-col md:flex-row `} >
+                <article className={`w-full mx-auto max-w-5xl  px-4 md:p-0 mb-12   flex items-center justify-between border-b border-b-[#D8D8D8] flex-col md:flex-row `} >
 
-                    <h1 className='text-primary text-[50px] font-semibold py-12 w-full sm:w-[550px] text-center'>Evaluation
-                        <br />    Process</h1>
-                    <p className='text-[#3B3B3B] sm:text-[18px] w-full  sm:w-[306px] text-center'>Committed to Minimizing Risks and Fostering Enterprise Growth for a Confident and Secure Future</p>
+                    <h1 className='text-primary text-[50px] font-semibold py-12 w-full sm:w-[550px] text-left'>Evaluation
+                        <br /> Process</h1>
+                    <p className='text-[#3B3B3B] sm:text-[18px] w-full  sm:w-[306px] text-left'>Committed to Minimizing Risks and Fostering Enterprise Growth for a Confident and Secure Future</p>
                 </article>
-                <article className={`w-full mx-auto max-w-[1440px]  px-4 md:p-0 mb-12    flex items-center justify-between flex-col gap-4 md:flex-row md:gap-0 text-center md:text-start`}>
-                    <div className='flex flex-col gap-4 w-full px-4 '>
+                <article className={`w-full mx-auto max-w-5xl  px-4 md:p-0 mb-12   flex items-center justify-between  flex-col md:flex-row  gap-4 md:gap-32`} >
+                    <div className='flex flex-col gap-8 w-full px-4 '>
 
-                        <div className='flex flex-col gap-2 md:block '>
+                        <div className='flex flex-col gap-8 md:block '>
                             <h1 className='text-[25px] font-medium text-[#0D0D0D]'>Versatile Solutions</h1>
                             <p className='text-[14px] md:text-[16px] text-[#3B3B3B] w-full md:w-[395px]'>Elit pellentesque habitant morbi tristique senectus et. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus</p>
                         </div>
-                        <div className='flex flex-col gap-2 md:block '>
+                        <div className='flex flex-col gap-2 md:block justify-end'>
                             <h1 className='text-[25px] font-medium text-[#0D0D0D]'>Versatile Solutions</h1>
                             <p className='text-[14px] md:text-[16px] text-[#3B3B3B] w-full md:w-[395px]'>Elit pellentesque habitant morbi tristique senectus et. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus</p>
                         </div>

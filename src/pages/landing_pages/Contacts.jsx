@@ -9,7 +9,7 @@ const Contacts = () => {
                     <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full px-2 items-start justify-end bg- h-full " >
 
 
-                        <h1 className='  bg-white text-black font-semibold text-[40px] md:text-[72px] px-2 md:pr-16   text-left'>Contact</h1>
+                        <h1 className='ml-6 md:ml-20  bg-white text-black font-semibold text-[40px] md:text-[72px] px-2 md:pr-16   text-left whitespace-nowrap'>Contact</h1>
                     </div>
                 </article>
             </div>

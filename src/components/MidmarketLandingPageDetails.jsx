@@ -2,7 +2,7 @@ import React from 'react'
 
 const MidmarketLandingPageDetails = ({ toShow1 = true, toShow2 = true, toShow3 = true }) => {
     return (
-        <div className='w-full max-w-[1270px] mx-auto my-12'>
+        <div className='w-full max-w-[1270px] mx-auto md:my-12'>
             {toShow1 && <article className='flex  gap-14 p-12 flex-col-reverse md:flex-row'>
                 <img src="/Image 1.png" alt="" className='w-full md:w-[45%] h-full' />
                 <div className='w-full lg:w-[540px] flex flex-col items-center justify-center'>

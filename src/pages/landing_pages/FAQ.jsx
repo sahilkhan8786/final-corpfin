@@ -17,7 +17,7 @@ const FAQ = () => {
                         </div>
 
 
-                        <h1 className='  bg-white text-black font-semibold text-[40px] md:text-[72px] px-2 md:pr-16   text-left whitespace-nowrap'>Find Answers</h1>
+                        <h1 className='ml-6 md:ml-20  bg-white text-black font-semibold text-[40px] md:text-[72px] px-2 md:pr-16   text-left whitespace-nowrap'>Find Answers</h1>
                     </div>
                 </article>
             </div>
@@ -44,8 +44,8 @@ const FAQ = () => {
 
             <div className='bg-[#F8F8F8] py-16'>
 
-                <div className='max-w-[1440px] mx-auto flex items-center justify-center flex-col my-12 px-4'>
-                    <article >
+                <div className='max-w-[1440px] mx-auto flex items-center justify-center flex-col-reverse md:flex-row  my-12 px-4 gap-6 '>
+                    <article className='flex-1 w-full'>
                         <h1 className='font-semibold text-[#0D0D0D] text-[28px] md:text-[50px] text-center'>Questions?
                             <br />
                             We’re here to help
@@ -73,7 +73,8 @@ const FAQ = () => {
                             </div>
                         </form>
                     </article>
-                    <article className='bg-[#D8D8D8] w-full'></article>
+                    <article className='bg-[#D8D8D8]   flex-1'>
+                        <img src="/Map.png" alt="" /> </article>
                 </div>
             </div>
         </>

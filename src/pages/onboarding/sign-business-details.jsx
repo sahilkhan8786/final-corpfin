@@ -64,10 +64,13 @@ const SignBusinessDetails = () => {
 
                     </p>
                 </form>
-                <p className='md:absolute md:bottom-12 my-6 md:my-0 block md:hidden text-center'>Having troubles?
-                    <span className='underline px-1 cursor-pointer text-primary '>Get Help</span>
+                <Link to={'/contact'}>
 
-                </p>
+                    <p className='md:absolute md:bottom-12 my-6 md:my-0 block md:hidden text-center'>Having troubles?
+                        <span className='underline px-1 cursor-pointer text-primary '>Get Help</span>
+
+                    </p>
+                </Link>
 
 
             </div>

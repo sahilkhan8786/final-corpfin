@@ -8,7 +8,7 @@ const InvestorLandingPageEarlyStage = () => {
 
             <div className="w-full h-[90vh]">
                 <article className={`relative flex flex-col text-white justify-center h-full w-full bg-[#A8A8A8] bg-center bg-cover bg-no-repeat`}>
-                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full px-2 relative px-6 sm:px-8">
+                    <div className="max-w-[1440px] mx-auto flex flex-col gap-8 w-full relative px-6 sm:px-8">
                         <h1 className="z-20 font-bold text-[32px] md:text-[46px] w-full max-w-[512px]">
                             Worem ipsum dolor sit amet, consectetur adipiscing elit.
                         </h1>
@@ -32,7 +32,7 @@ const InvestorLandingPageEarlyStage = () => {
                 </article>
             </div>
             <div className='flex flex-col gap-6 max-w-[1400px] mx-auto my-6 px-6 sm:px-8'>
-                <h1 className='font-semibold text-center text-[28px] md:text-[50px] text-[#0D0D0D] my-6'>
+                <h1 className='font-semibold text-left text-[28px] md:text-[50px] text-[#0D0D0D] my-6'>
                     Helping Investors
                 </h1>
                 <article className='flex gap-4 items-center justify-center flex-col px-2 md:flex-row'>

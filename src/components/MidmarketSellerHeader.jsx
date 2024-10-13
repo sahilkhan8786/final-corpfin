@@ -11,7 +11,7 @@ const MidmarketSellerHeader = () => {
     };
 
     return (
-        <header className='bg-white w-full border-b border-primary'>
+        <header className='bg-white w-full border-b border-primary '>
             <nav className='max-w-[1440px] mx-auto flex items-center justify-between py-4 px-2'>
                 {/* Logo */}
                 <div>

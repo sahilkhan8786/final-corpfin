@@ -3,6 +3,7 @@ import InputBox from '../../components/InputBox'
 import InputPhone from '../../components/InputPhone'
 import InputPhoto from '../../components/InputPhoto'
 import { Link } from 'react-router-dom'
+import { Li } from 'react-flags-select'
 
 const SignPersonalDetails = () => {
     return (
@@ -57,10 +58,12 @@ const SignPersonalDetails = () => {
 
                     </p>
                 </form>
-                <p className='md:absolute md:bottom-12 my-6 md:my-0 block  md:hidden text-center'>Having troubles?
-                    <span className='underline px-1 cursor-pointer text-primary'>Get Help</span>
+                <Link to={'/contact'}>
+                    <p className='md:absolute md:bottom-12 my-6 md:my-0 block  md:hidden text-center'>Having troubles?
+                        <span className='underline px-1 cursor-pointer text-primary'>Get Help</span>
 
-                </p>
+                    </p>
+                </Link>
 
 
             </div>

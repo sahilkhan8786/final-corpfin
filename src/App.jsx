@@ -155,6 +155,7 @@ const router = createBrowserRouter([
     path: '/desktop',
     element: <Desktop1 />
   },
+
   {
     path: '/mid-market-seller-overview',
     element: <MidmarketSellerOverview />

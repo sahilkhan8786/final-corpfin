@@ -85,7 +85,15 @@ const SignUp = () => {
                         <span className='text-[#A8A8A8] text-[12px]'>Copyright © 2024 All Rights Reserved</span>
 
                     </p>
+
                 </form>
+                <Link to={'/contact'}>
+
+                    <p className='md:absolute md:bottom-12 my-6 md:my-0 block md:hidden text-center'>Having troubles?
+                        <span className='underline px-1 cursor-pointer text-primary '>Get Help</span>
+
+                    </p>
+                </Link>
 
             </div>
         </section>
