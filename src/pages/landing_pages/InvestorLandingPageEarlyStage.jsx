@@ -86,7 +86,7 @@ const InvestorLandingPageEarlyStage = () => {
                 <img src="/home-and-family-insurance-concept-2023-11-27-04-50-01-utc .png" alt="" className='w-full md:w-1/2 px-2' />
             </div>
 
-            <div className='bg-[#F8F8F8] py-16 px-6 sm:px-8'>
+            <form className='bg-[#F8F8F8] py-16 px-6 sm:px-8'>
 
                 <div className='flex w-full max-w-[1440px] mx-auto my-16  gap-12 flex-col md:flex-row'>
                     <article className=' w-full flex flex-col gap-6'>
@@ -127,7 +127,7 @@ const InvestorLandingPageEarlyStage = () => {
                     </article>
 
                 </div>
-            </div>
+            </form>
         </>
     )
 }

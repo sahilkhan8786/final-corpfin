@@ -44,7 +44,7 @@ const FAQ = () => {
 
             <div className='bg-[#F8F8F8] py-16'>
 
-                <div className='max-w-[1440px] mx-auto flex items-center justify-center flex-col-reverse md:flex-row  my-12 px-4 gap-6 '>
+                <form className='max-w-[1440px] mx-auto flex items-center justify-center flex-col-reverse md:flex-row  my-12 px-4 gap-6 '>
                     <article className='flex-1 w-full'>
                         <h1 className='font-semibold text-[#0D0D0D] text-[28px] md:text-[50px] text-center'>Questions?
                             <br />
@@ -75,7 +75,7 @@ const FAQ = () => {
                     </article>
                     <article className='bg-[#D8D8D8]   flex-1'>
                         <img src="/Map.png" alt="" /> </article>
-                </div>
+                </form>
             </div>
         </>
     )

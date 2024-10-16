@@ -132,7 +132,7 @@ const StartupLandingPageEarlyStage = () => {
 
             <div className='bg-[#F8F8F8] py-16 px-6 sm:px-8'>
 
-                <div className='flex w-full max-w-[1440px] mx-auto my-16  gap-12 flex-col md:flex-row'>
+                <form className='flex w-full max-w-[1440px] mx-auto my-16  gap-12 flex-col md:flex-row'>
                     <article className=' w-full flex flex-col gap-3'>
                         <h1 className=' font-semibold text-[40px] text-[#0D0D0D]'>Find your <br /> Right Business</h1>
                         <p className='text-[#3B3B3B] text-[12px]'>We’re happy to answer any questions you may have <br /> and help you determine which of our services best <br /> fit your needs</p>
@@ -170,7 +170,7 @@ const StartupLandingPageEarlyStage = () => {
                         </form>
                     </article>
 
-                </div>
+                </form>
             </div>
         </>
     )

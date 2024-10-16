@@ -63,7 +63,7 @@ const Contacts = () => {
                 </article>
                 <article className='w-full bg-[#D8D8D8] h-[300px] md:h-[500px]'></article>
             </div>
-            <div className='max-w-[1440px] mx-auto flex items-center justify-center flex-col my-12  px-6 sm:px-8'>
+            <form className='max-w-[1440px] mx-auto flex items-center justify-center flex-col my-12  px-6 sm:px-8'>
                 <h1 className='font-semibold text-[#0D0D0D] text-[28px] md:text-[50px] text-center'>You have something to
                     <br />
                     discuss with us?</h1>
@@ -88,7 +88,7 @@ const Contacts = () => {
 
                     </div>
                 </form>
-            </div>
+            </form>
         </>
     )
 }
